@@ -1,5 +1,5 @@
 # OS5-Project
-This project features the standard set of race conditions with random actions taken by the children. They compete for virtual resources using process control blocks to track mutual exclusion.
+This project features the standard set of race conditions with random actions taken by the children. They compete for virtual resources using process control blocks to help with tracking mutual exclusion for the resources. In addition a tiered queuing system is used for priority. If a process uses it's allotted time then it will jump to a lower tier in the queue. If it cannot go any lower then it loops back to top priority. That is the just of this project.
 
 ----------------------------------------------------------------------
 About the Author:
